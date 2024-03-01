@@ -9,34 +9,16 @@
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3701f32c-7179-4a0c-b3ef-0e7f471d3d9b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CSKY_Datastruct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSKY_Datastruct.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/.idea/CSKY_P.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/LinkList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/linkedStack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/listStack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSKY_P/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkList.exe" beforeDir="false" />
-    </list>
+    <list default="true" id="3701f32c-7179-4a0c-b3ef-0e7f471d3d9b" name="Changes" comment="分类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,12 +46,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "C/C++ File.listStack.cpp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -100,11 +87,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709263470596</updated>
-      <workItem from="1709263472662" duration="66000" />
+      <workItem from="1709263472662" duration="494000" />
     </task>
+    <task id="LOCAL-00001" summary="分类">
+      <option name="closed" value="true" />
+      <created>1709263585096</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709263585096</updated>
+    </task>
+    <task id="LOCAL-00002" summary="分类">
+      <option name="closed" value="true" />
+      <created>1709263609447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709263609447</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="分类" />
+    <option name="LAST_COMMIT_MESSAGE" value="分类" />
   </component>
 </project>
