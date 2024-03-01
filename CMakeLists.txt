@@ -9,3 +9,5 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
 
 add_executable(linkedStack 栈/linkedStack.cpp)
+
+add_executable(main Line/main.cpp)
