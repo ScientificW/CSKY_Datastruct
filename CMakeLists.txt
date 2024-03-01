@@ -3,7 +3,9 @@ project(CSKY_Datastruct)
 
 set(CMAKE_CXX_STANDARD 14)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
-add_executable(listStack 栈/listStack.cpp)
-add_executable(LinkList 顺序表/LinkList.cpp)
+
 add_executable(linkedStack 栈/linkedStack.cpp)

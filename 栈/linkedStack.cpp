@@ -29,3 +29,8 @@ SNode* GetTop(LinkedStack S, int i){
     SNode *s = S->next;
     return s;
 };
+
+int main (){
+    cout << "hello";
+    return 0;
+}
