@@ -58,6 +58,11 @@ int main (){
     Pop(S, Po);
     int i = GetTop(S)->data;
     printf("Pop = %d\n", i);
-    printf("Poped = %d", Po);
+    printf("Poped = %d\n", Po);
+    Pop(S, Po);
+    printf("Poped2 = %d\n", Po);
+    if(Empty(S)){
+        printf("Empty");
+    }
     return 0;
 }
