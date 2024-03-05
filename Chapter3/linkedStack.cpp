@@ -25,12 +25,39 @@ bool Empty(LinkedStack S){
     return false;
 }
 
-SNode* GetTop(LinkedStack S, int i){
+SNode* GetTop(LinkedStack S){
     SNode *s = S->next;
     return s;
 };
 
+bool Push(LinkedStack &S, int i){
+    SNode *s = (SNode*)malloc(sizeof (SNode));
+    s->data = i;
+    s->next = S->next;
+    S->next = s;
+    return true;
+}
+
+bool Pop(LinkedStack &S, int &i){
+    if (Empty(S)){
+        return false;
+    }
+    SNode *s = S->next;
+    i = s->data;
+    S->next = s->next;
+    free(s);
+    return true;
+}
+
 int main (){
-    cout << "hello";
+    LinkedStack S;
+    InitStack(S);
+    Push(S, 12);
+    Push(S, 13);
+    int Po;
+    Pop(S, Po);
+    int i = GetTop(S)->data;
+    printf("Pop = %d\n", i);
+    printf("Poped = %d", Po);
     return 0;
 }
