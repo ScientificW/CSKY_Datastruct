@@ -13,9 +13,9 @@ typedef struct LinkQueue{
     LinkNode *front, *rear;
 }LinkQueue;
 
-bool InitQueue(LinkQueue &Q){
+void InitQueue(LinkQueue &Q){
     Q.front = Q.rear = (LinkNode*) malloc(sizeof (LinkNode));
-    Q.front->next = NULL;
+    Q.front->next = nullptr;
 }
 
 bool isEmpty(LinkQueue Q){
@@ -28,12 +28,12 @@ bool isEmpty(LinkQueue Q){
 void EnQueue(LinkQueue &Q, int x){
     LinkNode *s = (LinkNode*) malloc(sizeof (LinkNode));
     s->data = x;
-    s->next = NULL;
+    s->next = nullptr;
     Q.rear->next = s;
     Q.rear = s;
 }
 
-bool DeQueue(LinkQueue &Q, int x){
+bool DeQueue(LinkQueue &Q, int &x){
     if(isEmpty(Q)){
         return false;
     }
@@ -51,19 +51,19 @@ bool LoQueue(LinkQueue Q, int &x){
     if (Q.front == Q.rear){
         return false;
     }
-    x = Q.front->data;
+    x = Q.front->next->data;
     return true;
 }
 
 int main(){
     LinkQueue Q;
-//    InitQueue(Q);
-//    EnQueue(Q, 1);
-//    EnQueue(Q, 2);
-//    int x;
-//    LoQueue(Q, x);
-//    cout << x << '\n';
-//    DeQueue(Q, x);
-//    cout << x << '\n';
-//    return 0;
+    InitQueue(Q);
+    EnQueue(Q, 1);
+    EnQueue(Q, 2);
+    int x, y;
+    LoQueue(Q, x);
+    cout << x << '\n';
+    DeQueue(Q, y);
+    cout << y << '\n';
+    return 0;
 }
