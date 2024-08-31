@@ -29,10 +29,10 @@ void QuickSort(int A[], int low, int high){
 }
 
 int main(){
-    int A[] = {5, 4, 3, 2, 1};
-    QuickSort(A, 0, 4);
-    for(int i = 0; i <= 4; i++){
-        cout << A[i];
+    int A[] = {100, 96, 92, 35, 30, 110, 88, 42};
+    QuickSort(A, 0, 7);
+    for(int i = 0; i <= 7; i++){
+        cout << A[i] << ' ';
     }
     return 0;
 }
