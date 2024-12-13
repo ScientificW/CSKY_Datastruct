@@ -36,7 +36,8 @@ void MergeSort(int A[], int B[], int low, int high){
 
 int main(){
     int A[] = {5, 4, 3, 2, 1};
-    int B[4-0+1];
+
+    int B[sizeof (A) / sizeof (int)];
     MergeSort(A, B, 0, 4);
     for(int i : A){
         cout << i << ' ';
