@@ -12,7 +12,7 @@ int Er(int A[], int n, int find){
             return mid;
         }else if(A[mid] < find){
             front = mid + 1;
-        }else if(A[mid > find]){
+        }else if(A[mid] > find){
             rear = mid - 1;
         }
     }

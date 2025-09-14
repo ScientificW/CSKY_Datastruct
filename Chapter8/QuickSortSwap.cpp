@@ -5,19 +5,12 @@
 using namespace std;
 
 void QSort(int A[], int L, int R){
-    if(L >= R){
-        return;
-    }
+    if(L >= R) return;
     int pivot = A[L];
-    int i = L, j = R;
-    int temp;
+    int i = L, j = R, temp;
     while(i < j){
-        while(i < j && A[j] >= pivot){
-            j --;
-        }
-        while(i < j && A[i] <= pivot){
-            i ++;
-        }
+        while (i<j && A[j] >= pivot) j--;
+        while (i<j && A[i] <= pivot) i++;
         if(i < j){
             temp = A[i];
             A[i] = A[j];
@@ -28,8 +21,8 @@ void QSort(int A[], int L, int R){
     A[L] = A[i];
     A[i] = temp;
 
-    QSort(A, L, i - 1);
-    QSort(A, i + 1, R);
+    QSort(A, L, i-1);
+    QSort(A, i+1,R);
 }
 
 int main(){
