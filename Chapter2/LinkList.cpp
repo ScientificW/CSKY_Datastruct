@@ -11,9 +11,9 @@ typedef struct LNode{
 
 bool InitList(LinkList &L){
     L = (LNode*) malloc(sizeof (LNode));
-    if (L == NULL)
+    if (L == nullptr)
         return false;
-    L->next = NULL;
+    L->next = nullptr;
     return true;
 }
 
@@ -24,9 +24,9 @@ LNode* GetElem(LinkList L, int i){
         return L;
     }
     if(i < 1){
-        return NULL;
+        return nullptr;
     }
-    while(p != NULL && j < i){
+    while(p != nullptr && j < i){
         p = p->next;
         j++;
     }

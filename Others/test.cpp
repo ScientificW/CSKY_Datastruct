@@ -5,6 +5,13 @@
 using namespace std;
 
 int main(){
-    cout << 5/2;
+    int m = 0, i, j, n;
+    cin >> n;
+    for(i = 1; i <= n; i++){
+        for(j = 1; j <= 2*i; j++){
+            m ++;
+        }
+    }
+    cout << m;
     return 0;
 }
