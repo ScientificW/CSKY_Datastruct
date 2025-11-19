@@ -24,10 +24,10 @@ void QSelect(int A[], int n){
 }
 
 int main(){
-    int A[] = {100, 96, 92, 35, 30, 110, 88, 42};
-    QSelect(A, 8);
-    for(int i = 0; i <= 7; i++){
-        cout << A[i] << ' ';
+    int A[] = {100, 96, 92, 35, 30, 110, 88};
+    QSelect(A, 7);
+    for(int i = 0; i <= 6; i++){
+        cout << A[3] << ' ';
     }
     return 0;
 }
