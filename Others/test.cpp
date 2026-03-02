@@ -52,7 +52,6 @@ void Q_sort(int A[], int L, int R){
 }
 
 int main(){
-    unsigned short a = 2, b = 4;
-    cout << (unsigned short) -1;
-    return 0;
+    char c;
+    cout << sizeof c;
 }
